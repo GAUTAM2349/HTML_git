@@ -1,0 +1,13 @@
+* to use comment also, in jsx we need to wrap it inside {}, and then commenting is like js
+* Is jsx mandatory for react ?- no we can use normal react syntax, ie. js itself, but it is for convenient. React
+  can use typescript also, but that is also not compulsory, function as well as class syntax, but not any one is mandatory,
+  and this makes react too flexible. 
+* We can use react only in specific part also, not necessarily , if that component needs too much of stuffs so it can be made av
+ ailable immediately.
+* We can write component as similar to html tag <Component_name> </Component_name> , also like <Component_name/> (preffered)
+  and since components are eventually a function so it can also be directly called.
+* planning is necessary before H2SO4 
+* React Fragment <React.Fragment></> is also a component which is imported through React. It is like an empty tag.
+
+q. why to give name to arguments that are passed as props?
+TASK :- check once does jsx takes only evaluative expression or normal for loop statement will work
