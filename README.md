@@ -24,7 +24,7 @@ _____________________________________
 
 *  The issue lies in how JavaScript code is being used inside JSX. JSX doesn't allow statements like for loops directly. Instead, you should use expressions, as JSX is designed to evaluate expressions (not statements). A for loop is a statement and can't be used directly in the {} braces.
 
-To iterate in JSX, use array methods like .map() or precompute the required logic before returning JSX.
+To iterate in JSX, use array methods like .map() or precompute the required logic before returning JSX, like outside of component add all the elments into array with html syntax, by passing elements as argument.
 
 
 ** see live preview during development so that u can encouter error point as soon as it occurs. Otherwise u will confuse where error is
